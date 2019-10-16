@@ -1,7 +1,7 @@
 [package]
 name = "mathop"
 version = "0.1.0"
-authors = ["Sidra Zain"]
+authors = ["Sidra Zain <sidrashakeel19@hotmail.com"]
 edition = "2018"
 description = "Library for math operations"
 license = "MIT"
