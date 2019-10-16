@@ -26,4 +26,13 @@ mod simp_op {
             fin1 * fin2
         }
     }
+
+    mod divide {
+        pub fn idiv(iin1: i32, iin2: i32) -> i32 {
+            iin1/iin2
+        }
+        pub fn fdiv(fin1: f32, fin2: f32) -> f32 {
+            fin1/fin2
+        }
+    }
 }
