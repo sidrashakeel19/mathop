@@ -1,4 +1,4 @@
-mod simp_op {
+pub mod simp_op {
     mod sum {
         pub fn isum(iin1: i32, iin2: i32) -> i32 {
             iin1 + iin2
