@@ -1,5 +1,5 @@
 pub mod simp_op {
-    mod sum {
+    pub mod sum {
         pub fn isum(iin1: i32, iin2: i32) -> i32 {
             iin1 + iin2
         } 
@@ -9,7 +9,7 @@ pub mod simp_op {
         }
     }
 
-    mod diff {
+    pub mod diff {
         pub fn idiff(iin1: i32, iin2: i32 ) -> i32 {
             iin1 - iin2
         }
@@ -18,7 +18,7 @@ pub mod simp_op {
         }
     }
 
-    mod multiply {
+    pub mod multiply {
         pub fn imul(iin1: i32, iin2: i32) -> i32 {
             iin1 * iin2
         }
@@ -27,7 +27,7 @@ pub mod simp_op {
         }
     }
 
-    mod divide {
+    pub mod divide {
         pub fn idiv(iin1: i32, iin2: i32) -> i32 {
             iin1/iin2
         }
