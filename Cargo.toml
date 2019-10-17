@@ -1,6 +1,6 @@
 [package]
 name = "mathop"
-version = "0.1.5"
+version = "0.1.6"
 authors = ["Sidra Shakeel <sidrashakeel19@hotmail.com"]
 edition = "2018"
 description = "Library for math operations"
